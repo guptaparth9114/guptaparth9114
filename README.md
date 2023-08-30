@@ -14,7 +14,9 @@
 
 <p><img align="left" src="https://github-readme-stats.vercel.app/api/top-langs?username=guptaparth9114&show_icons=true&locale=en&layout=compact" alt="guptaparth9114" /></p>
 
-<p>&nbsp;<img align="center" src="https://github-readme-stats.vercel.app/api?username=guptaparth9114&show_icons=true&locale=en" alt="guptaparth9114" /></p>
+<p>&nbsp;<img align="center" src="https://github-readme-stats.vercel.app/api?username=guptaparth9114&show_icons=true&locale=en" alt="guptaparth9114" /></p> 
+![Your Name's GitHub Stats](https://github-readme-stats.vercel.app/api?username=guptaparth9114&show_icons=true&count_private=true)
+
 
 <p><img align="center" src="https://github-readme-streak-stats.herokuapp.com/?user=guptaparth9114&" alt="guptaparth9114" /></p>
 
