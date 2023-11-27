@@ -7,7 +7,7 @@
 
 <h3 align="left">Connect with me:</h3>
 <p align="left">
-  <a href="https://twitter.com/parthgupta9114" target="blank"><img align="center" src="//abs.twimg.com/favicons/twitter.3.ico" alt="parthgupta9114" height="30" width="40" />  𝕏 formerly twitter: @parthgupta9114</a> <br>
+  <a href="https://twitter.com/parthgupta9114" target="blank"><img align="center" img="//abs.twimg.com/favicons/twitter.3.ico" alt="parthgupta9114" height="30" width="40" />  𝕏 formerly twitter: @parthgupta9114</a> <br>
  <a href="https://linkedin.com/in/parth-gupta2004" target="_blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="in/parth-gupta2004" height="30" width="40" /> LinkedIn: in/parth-gupta2004</a>
 </p>
 
