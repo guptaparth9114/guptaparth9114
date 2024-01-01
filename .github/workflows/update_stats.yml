@@ -12,12 +12,20 @@ jobs:
       - name: Checkout code
         uses: actions/checkout@v2
 
-      - name: Update Language Stats
+      - name: Set up Node.js
         uses: actions/setup-node@v3
         with:
           node-version: '14'
-        env:
-          GH_TOKEN: ${{ secrets.GH_TOKEN }}
+
+      - name: Debug Environment Variables
         run: |
-          npm install -g github-lang
-          github-lang -r ${{ github.repository_owner }}/${{ github.event.repository.name }} -t $GH_TOKEN
+          echo "GitHub Repository Owner: ${{ github.repository_owner }}"
+          echo "GitHub Repository Name: ${{ github.event.repository.name }}"
+          echo "GitHub Token: $GH_TOKEN"
+          echo "Path: $GITHUB_WORKSPACE"
+
+      - name: Install github-lang
+        run: npm install -g github-lang
+
+      - name: Update Language Stats
+        run: github-lang -r ${{ github.repository_owner }}/${{ github.event.repository.name }} -t $GH_TOKEN
