@@ -1,0 +1,23 @@
+name: Update Language Stats
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  update-stats:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v2
+
+      - name: Update Language Stats
+        uses: actions/setup-node@v3
+        with:
+          node-version: '14'
+        env:
+          GH_TOKEN: ${{ secrets.GH_TOKEN }}
+        run: |
+          npm install -g github-lang
+          github-lang -r ${{ github.repository_owner }}/${{ github.event.repository.name }} -t $GH_TOKEN
