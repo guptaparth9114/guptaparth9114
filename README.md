@@ -23,7 +23,7 @@
 
 <p><img align="left" src="https://github-readme-stats.vercel.app/api/top-langs?username=guptaparth9114&show_icons=true&count_private=true&locale=en&layout=donut-vertical" alt="guptaparth9114" /></p>
 
-![Your Name's GitHub Stats](https://github-readme-stats.vercel.app/api?username=guptaparth9114&exclude_repo=portfolio_management_website&langs_count=8&show_icons=true&count_private=true&theme=tokyonight)
+![Your Name's GitHub Stats](https://github-readme-stats.vercel.app/api?username=guptaparth9114&hide=php&exclude_repo=portfolio_management_website&langs_count=8&show_icons=true&count_private=true&theme=tokyonight)
 
 <p>&nbsp;<img align="left" src="https://github-readme-stats.vercel.app/api?username=guptaparth9114&show_icons=true&locale=en" alt="guptaparth9114" /></p>
 
